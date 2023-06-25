@@ -1,0 +1,27 @@
+p {
+    color: blueviolet;
+}
+
+h1 {
+    color: rgb(93, 207, 241);
+    background: #bba1ee;
+    background: linear-gradient(90deg, #bba1ee 0%, #e7f8ff 80%);
+    background: -webkit-linear-gradient(90deg, #bba1ee 0%, #e7f8ff 80%);
+    background: -moz-linear-gradient(90deg, #bba1ee 0%, #e7f8ff 80%);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+h2 {
+    color: #FF6550;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+div {
+    width: 300px;
+    height: 150px;
+    background-color: beige;
+    text-align: center;
+}
