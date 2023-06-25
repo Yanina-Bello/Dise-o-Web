@@ -1,5 +1,8 @@
 p {
     color: blueviolet;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
 }
 
 h1 {
@@ -9,14 +12,18 @@ h1 {
     background: -webkit-linear-gradient(90deg, #bba1ee 0%, #e7f8ff 80%);
     background: -moz-linear-gradient(90deg, #bba1ee 0%, #e7f8ff 80%);
     text-align: center;
-    text-transform: uppercase;
     font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+
+
 }
 
 h2 {
     color: #FF6550;
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
+    text-align: center;
+    background-color: aquamarine;
 }
 
 div {
@@ -24,4 +31,35 @@ div {
     height: 150px;
     background-color: beige;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li {
+    color: #bba1ee;
+    font-family: 'Roboto', sans-serif;
+
 }
