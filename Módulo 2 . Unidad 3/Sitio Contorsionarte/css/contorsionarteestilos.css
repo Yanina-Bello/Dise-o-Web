@@ -1,17 +1,21 @@
-/*
-font-family: 'Alfa Slab One', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+
 
 footer{
     background-color: gray;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Hind Siliguri', sans-serif;
     color: white;
     background-color: lightslategray;
+    
+}
+h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #000;
+    background-color: lightblue;
+    
+
 }
 
 h3 {
@@ -24,7 +28,7 @@ h3 {
 .hero {
     background: url(../img/ban2.jpg) no-repeat;
     background-size: cover;
-    height: 0.5vh;
+    height: 50vh;
     min-height: 600px;
     color: white;
 }
@@ -88,6 +92,22 @@ color:rgb(0, 77, 128)
     aspect-ratio: 1.2;
 }
 
-html {
+.html {
     scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(5, 152, 172);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(226, 236, 236);
+}
+
+.scroll_section {
+    scroll-margin-top: 200px;
+}
+
+.contacto {
+    background-color: #4d4c4c38;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
