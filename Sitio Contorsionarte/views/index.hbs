@@ -1,0 +1,140 @@
+<div class="container-fluid">
+    <div id="home" class="row align-items-center hero scroll_section">
+        <div class="col-lg-3 offset-lg-2">
+            <h1>Flexibilidad Elongación Contorsión</h1>
+            <h5>Entrenamiento integral</h5>
+        </div>
+    </div>
+</div>
+<!--termina titulo rectangular-->
+<!--comienzan novedades de tips-->
+
+<div class="row my-3">
+    <div id="novedades" class="col-md-5 offset-md-2 py-3 scroll_section">
+        <h2>Tips</h2>
+        <ul class="lista-novedades">
+            <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/ic.jpg"> Un poco de
+                    técnica</a>
+            </li>
+            <li><a href="#"><img src="images/ic.jpg">Nivel básico</a></li>
+            <li><a href="#"><img src="images/ic.jpg">Nivel intermedio</a></li>
+            <li><a href="#"><img src="images/ic.jpg">Nivel avanzado</a></li>
+
+        </ul>
+    </div> <!--cierra novedades de tips-->
+
+    <!--inicio modal-->
+    <div class="modal" tabindex="-1" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ver más</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>AAA</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fin modal-->
+    <!--cierra div con id novedades-->
+    <!--inicio historia-->
+    <div id="historia" class="row align-items-center py-3 scroll_section">
+        <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+            <img src="images/otrahistoria.png" alt="historia 1" class="img-fluid">
+        </div>
+        <div class="col-12 d-sm-none">
+            <img src="images/histoflex.jpeg" alt="historia 2" class="img-fluid">
+        </div>
+        <div class="col-12 d-sm-none">
+            <img src="images/otrahistoria.png" alt="historia 2" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+            <h2>Modalidad</h2>
+            <p> Personalizada online o presencial.</p>
+        </div>
+    </div>
+    <!--cierra div historia-->
+
+    <!--inicio nosotros-->
+    <div id="sobremí" class="row align-items-center py-4 scroll_section">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/mifoto.jpeg" class="img-fluid rounded-start" alt="align-items-center">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Sobre mí</h5>
+                        <p class="card-text">Comencé haciendo Yoga Artístico a los 7 años, luego a los 9 seguí con
+                            Contorsión
+                            Deportiva y Danzada. Desde entonces participé en competencias y torneos del CENARD hasta
+                            realizar las
+                            formaciones que hoy me permiten enseñar lo que tanto me gusta hacer.</p>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--fin nosotros-->
+
+
+
+
+    <!--inicio mapa-->
+    <div class="container">
+
+        <div id="mapa" class="row py-4 scroll_section">
+            <div class="col-md-4 offset-md-2">
+                <h2>Ubicación</h2>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26297.075391563336!2d-58.49361455317349!3d-34.52482212084785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6a6386ba5c9%3A0xb8039ed75861da4d!2sVicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1690207073795!5m2!1ses!2sar">
+                    </iframe>
+                </div>
+            </div>
+            <!--fin mapa-->
+
+            <!--inicio formulario-->
+
+            <h2>Contacto</h2>
+
+            <form action="/" method="post" class="formulario">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                </p>
+
+                <p>
+                    <label for="tel">Teléfono</label>
+                    <input type="text" name="tel">
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje"></textarea>
+                </p>
+
+                <p class="acciones"><input type="submit" value="Enviar" /></p>
+
+            </form>
+            
+            <p>{{message}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+
+
+footer{
+    background-color: gray;
+}
+
+h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    background-color: lightslategray;
+    
+}
+h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #000;
+    background-color: lightblue;
+    
+
+}
+
+h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #000;
+    background-color: lightblue;
+    
+}
+
+.hero {
+    background: url(../images/ban2.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: white;
+}
+
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+
+}
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+
+.lista-novedades li a {
+    background-color: lightgray;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    transition: all 2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover {
+color:rgb(0, 77, 128)
+
+
+}
+
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.testimonios {
+    background-color: rgb(226, 226, 226);
+    color: gray;
+    padding-bottom: 4rem !important;
+}
+
+.testimonio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(5, 152, 172);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(226, 236, 236);
+}
+
+.scroll_section {
+    scroll-margin-top: 200px;
+}
+
+.contacto {
+    background-color: #4d4c4c38;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
