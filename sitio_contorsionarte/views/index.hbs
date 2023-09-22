@@ -106,7 +106,7 @@
             <!--fin mapa-->
 
             <!--inicio formulario-->
-            <form action="/contacto" method="post" class="formulario">
+            <form action="/" method="post" class="formulario">
                 <p>
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre">
@@ -117,7 +117,7 @@
                 </p>
                 <p>
                     <label for="telefono">Teléfono</label>
-                    <input type="text" name="tel">
+                    <input type="text" name="telefono">
                 </p>
                 <p>
                     <label for="mensaje">Mensaje</label>
@@ -126,5 +126,5 @@
                 <p class="acciones"><input type="submit" value="Enviar" /></p>
 
             </form>
-            {{ message }}
+            <p>{{ message }}</p>
             <!--fin form contacto-->
